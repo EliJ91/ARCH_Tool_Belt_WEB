@@ -6,7 +6,7 @@ const Container = styled.table`
     border:3px solid white;
     border-radius:10px;
     margin-top:2em;
-    width:75vw;
+    width:90vw;
     margin-left:auto;
     margin-right:auto;
     display: grid;
@@ -21,14 +21,10 @@ const Container = styled.table`
 const Table = styled.tbody`
     margin-left:auto;
     margin-right:auto;  
-    border-collapse: separate;
-    border-spacing: 15px;  
+    border-collapse: separate;  
     color:white;  
 
 `
-
-
-
 const Thead = styled.th`
     text-align:center;
     min-width: 5em;
@@ -37,6 +33,12 @@ const Thead = styled.th`
 `
 
 const Tdata = styled.td`
+    text-align:center;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: rgba(100,100,100,0.6);;
+`
+const TdataG = styled.td`
     text-align:center;
     border: 1px solid white;
     padding: 5px;
@@ -226,6 +228,162 @@ color:white;
                 </tr>
             
                 {guildData.slice(100,109).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+{/* /////////////////////////////////////////////////////////////////////////////////////// */}
+            {guildData.length > 109 &&
+            <Table>
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(110,119).map((d)=>
+                <tr>
+                    <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                    <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 119 &&
+            <Table>
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(120,129).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            
+            {guildData.length > 129 &&
+            <Table>
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(130,139).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 139 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(140,149).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 149 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(150,159).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 159 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(160,169).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 169 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(170,179).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 179 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(180,189).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 189 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(190,199).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 199 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(200,209).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 209 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(210,219).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>

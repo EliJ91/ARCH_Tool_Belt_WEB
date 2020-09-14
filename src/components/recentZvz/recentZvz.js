@@ -13,8 +13,7 @@ const TableContainer = styled.table`
 const Table = styled.tbody`
     margin-left:auto;
     margin-right:auto;  
-    border-collapse: separate;
-    border-spacing: 15px;  
+    border-collapse: separate;  
     color:white;    
 `
 const Thead = styled.th`
@@ -28,7 +27,7 @@ const Tdata = styled.td`
     text-align:center;
     border: 1px solid white;
     padding: 5px;
-    background-color: rgba(0,0,0,0.8);;
+    background-color: rgba(100,100,100,0.6);
 `
 
 const Text = styled.span`
@@ -41,13 +40,24 @@ font-family: 'Skranji', cursive;
 font-size:2em;  
 text-align:center;
 color:white; 
+
 `
 const DocTitleContainer = styled.div`
     display:flex;
     justify-content:space-evenly;
     align-items:center;
+    
 `
 const DocInfo = styled.p`
+    text-align:center;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+`
+const DocInfoT = styled.p`
     text-align:center;
     border: 1px solid white;
     padding: 5px;
@@ -63,6 +73,7 @@ const DocInfoUTC = styled.p`
     color:white;
     font-weight: bold;
     font-size:1.5em;
+    border-radius: 10px;
 `
 const CardContainer = styled.div`
     border:3px solid white;
@@ -258,7 +269,7 @@ function RecentZvz() {
                             </Table>
                         }
                     </TableContainer>
-                    <DocInfo>Total Players: {d.Total}</DocInfo>
+                    <DocInfoT>Total Players: {d.Total}</DocInfoT>
                 </CardContainer>
                 )}
 
