@@ -93,9 +93,6 @@ function RecentZvz() {
 
         console.log(zvzDocuments)
 
-        if(zvzDocuments){
-            zvzDocuments.sort((a, b) => (a.Date > b.Date) ? 1 : -1)
-        }
   return (
     <>
         <Title>Recent ZvZ's</Title>
@@ -113,91 +110,147 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(0,10).map((d)=>
+                                {d.GuildInfo.slice(0,9).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 10 &&
+                        {d.GuildInfo.length > 9 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(11,21).map((d)=>
+                                {d.GuildInfo.slice(10,19).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 21 &&
+                        {d.GuildInfo.length > 19 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(22,32).map((d)=>
+                                {d.GuildInfo.slice(20,29).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 32 &&
+                        {d.GuildInfo.length > 29 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(33,43).map((d)=>
+                                {d.GuildInfo.slice(30,39).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 43 &&
+                        {d.GuildInfo.length > 39 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(44,54).map((d)=>
+                                {d.GuildInfo.slice(40,49).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 54 &&
+                        {d.GuildInfo.length > 49 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(55,65).map((d)=>
+                                {d.GuildInfo.slice(50,59).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 65 &&
+                        {d.GuildInfo.length > 59 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(66,76).map((d)=>
+                                {d.GuildInfo.slice(60,69).map((d)=>
+                                <tr>
+                                    <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                                    <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
+                                </tr>)}
+                            </Table>
+                        }
+                        {d.GuildInfo.length > 69 &&
+                            <Table>
+                                <tr>
+                                    <Thead>Guild</Thead>
+                                    <Thead>Players</Thead>
+                                </tr>
+                            
+                                {d.GuildInfo.slice(70,79).map((d)=>
+                                <tr>
+                                    <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                                    <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
+                                </tr>)}
+                            </Table>
+                        }
+                        {d.GuildInfo.length > 79 &&
+                            <Table>
+                                <tr>
+                                    <Thead>Guild</Thead>
+                                    <Thead>Players</Thead>
+                                </tr>
+                            
+                                {d.GuildInfo.slice(80,89).map((d)=>
+                                <tr>
+                                    <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                                    <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
+                                </tr>)}
+                            </Table>
+                        }
+                        {d.GuildInfo.length > 89 &&
+                            <Table>
+                                <tr>
+                                    <Thead>Guild</Thead>
+                                    <Thead>Players</Thead>
+                                </tr>
+                            
+                                {d.GuildInfo.slice(90,99).map((d)=>
+                                <tr>
+                                    <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                                    <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
+                                </tr>)}
+                            </Table>
+                        }
+                        {d.GuildInfo.length > 99 &&
+                            <Table>
+                                <tr>
+                                    <Thead>Guild</Thead>
+                                    <Thead>Players</Thead>
+                                </tr>
+                            
+                                {d.GuildInfo.slice(100,109).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
