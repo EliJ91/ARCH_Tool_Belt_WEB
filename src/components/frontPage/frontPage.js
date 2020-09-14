@@ -80,111 +80,154 @@ color:white;
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(0,10).map((d)=>
+                {guildData.slice(0,9).map((d)=>
                 <tr>
                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                     <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 10 &&
+            {guildData.length > 9 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(11,21).map((d)=>
+                {guildData.slice(10,19).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 21 &&
+            {guildData.length > 19 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(21,31).map((d)=>
+                {guildData.slice(20,29).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 31 &&
+            {guildData.length > 29 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(32,42).map((d)=>
+                {guildData.slice(30,39).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 42 &&
+            {guildData.length > 39 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(43,53).map((d)=>
+                {guildData.slice(40,49).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 53 &&
+            {guildData.length > 49 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(54,65).map((d)=>
+                {guildData.slice(50,59).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 65 &&
+            {guildData.length > 59 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(66,77).map((d)=>
+                {guildData.slice(60,69).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
-            {guildData.length > 77 &&
+            {guildData.length > 69 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
                     <Thead>%</Thead>
                 </tr>
             
-                {guildData.slice(77,87).map((d)=>
+                {guildData.slice(70,79).map((d)=>
                 <tr>
                 <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                 <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
                 </tr>)}
 
             </Table>}
+            {guildData.length > 79 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(80,89).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 89 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(90,99).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            {guildData.length > 99 &&
+            <Table >
+                <tr>
+                    <Thead>Guild</Thead>
+                    <Thead>%</Thead>
+                </tr>
+            
+                {guildData.slice(100,109).map((d)=>
+                <tr>
+                <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
+                <Tdata key={d.Ammount}> <Text>{d.Percent}%</Text> </Tdata>
+                </tr>)}
+
+            </Table>}
+            
             
             
             
