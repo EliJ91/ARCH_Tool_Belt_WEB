@@ -12,6 +12,7 @@ body{
   background-image: url("../src/img/purple-370132_960_720.webp");
   background-repeat: none;
   background-size: cover;
+  background-attachment: fixed;
   
 }
 
