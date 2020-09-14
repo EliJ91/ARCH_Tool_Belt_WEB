@@ -23,8 +23,12 @@ const Table = styled.tbody`
     margin-right:auto;  
     border-collapse: separate;
     border-spacing: 15px;  
-    color:white;    
+    color:white;  
+
 `
+
+
+
 const Thead = styled.th`
     text-align:center;
     min-width: 5em;
@@ -101,6 +105,7 @@ color:white;
                 </tr>)}
 
             </Table>}
+            
             {guildData.length > 19 &&
             <Table>
                 <tr>
