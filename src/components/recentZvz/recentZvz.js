@@ -121,7 +121,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(0,9).map((d)=>
+                                {d.GuildInfo.slice(0,10).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -135,7 +135,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(10,19).map((d)=>
+                                {d.GuildInfo.slice(10,20).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -149,7 +149,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(20,29).map((d)=>
+                                {d.GuildInfo.slice(20,30).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -163,7 +163,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(30,39).map((d)=>
+                                {d.GuildInfo.slice(30,40).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -177,7 +177,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(40,49).map((d)=>
+                                {d.GuildInfo.slice(40,50).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -191,7 +191,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(50,59).map((d)=>
+                                {d.GuildInfo.slice(50,60).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -205,7 +205,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(60,69).map((d)=>
+                                {d.GuildInfo.slice(60,70).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -219,7 +219,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(70,79).map((d)=>
+                                {d.GuildInfo.slice(70,80).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -233,7 +233,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(80,89).map((d)=>
+                                {d.GuildInfo.slice(80,90).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -247,7 +247,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(90,99).map((d)=>
+                                {d.GuildInfo.slice(90,100).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
@@ -261,7 +261,7 @@ function RecentZvz() {
                                     <Thead>Players</Thead>
                                 </tr>
                             
-                                {d.GuildInfo.slice(100,109).map((d)=>
+                                {d.GuildInfo.slice(100,110).map((d)=>
                                 <tr>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
