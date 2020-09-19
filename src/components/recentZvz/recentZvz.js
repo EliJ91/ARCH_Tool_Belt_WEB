@@ -14,18 +14,18 @@ const Table = styled.tbody`
     margin-left:auto;
     margin-right:auto;  
     border-collapse: separate;  
-    color:white;    
+    color:#DCDCDC;    
 `
 const Thead = styled.th`
     text-align:center;
     min-width: 5em;
-    border: 2px solid white;
+    border: 2px solid #DCDCDC;
     background-color:rgba(0,0,0,0.8);
 `
 
 const Tdata = styled.td`
     text-align:center;
-    border: 1px solid white;
+    border: 1px solid #DCDCDC;
     padding: 5px;
     background-color: rgba(100,100,100,0.6);
 `
@@ -39,7 +39,7 @@ margin-bottom:0;
 font-family: 'Skranji', cursive;
 font-size:2em;  
 text-align:center;
-color:white; 
+color:#DCDCDC; 
 
 `
 const DocTitleContainer = styled.div`
@@ -50,33 +50,33 @@ const DocTitleContainer = styled.div`
 `
 const DocInfo = styled.p`
     text-align:center;
-    border: 1px solid white;
+    border: 1px solid #DCDCDC;
     padding: 5px;
     background-color: rgba(0,0,0,0.8);;
-    color:white;
+    color:#DCDCDC;
     font-weight: bold;
     border-radius: 10px;
 `
 const DocInfoT = styled.p`
     text-align:center;
-    border: 1px solid white;
+    border: 1px solid #DCDCDC;
     padding: 5px;
     background-color: rgba(0,0,0,0.8);;
-    color:white;
+    color:#DCDCDC;
     font-weight: bold;
 `
 const DocInfoUTC = styled.p`
     text-align:center;
-    border: 1px solid white;
+    border: 1px solid #DCDCDC;
     padding: 5px;
     background-color: rgba(0,0,0,0.8);;
-    color:white;
+    color:#DCDCDC;
     font-weight: bold;
     font-size:1.5em;
     border-radius: 10px;
 `
 const CardContainer = styled.div`
-    border:3px solid white;
+    border:3px solid #DCDCDC;
     border-radius:10px;
     margin-top:2em;
     width:75vw;
@@ -84,6 +84,12 @@ const CardContainer = styled.div`
     margin-right:auto;    
     background-color:rgba(0,0,0,0.3);
     box-shadow: 0px 0px 5px 5px black
+`
+
+const TableRow =styled.tr`
+    &:first-child(even) {background: black}
+    &:nth-child(2n+3) {background: rgba(100,100,100,0.6)}
+    &:nth-child(2n+3) {color:black}
 `
 
 
@@ -116,156 +122,156 @@ function RecentZvz() {
                     <TableContainer>
                         {d.GuildInfo.length >= 0 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(0,10).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length > 10 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(10,20).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length > 20 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(20,30).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length > 30 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(30,40).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length > 40 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(40,50).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length > 50 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(50,60).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length >= 60 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(60,70).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length >= 70 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(70,80).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length >= 80 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(80,90).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length >= 90 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(90,100).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                         {d.GuildInfo.length >= 100 &&
                             <Table>
-                                <tr>
+                                <TableRow>
                                     <Thead>Guild</Thead>
                                     <Thead>Players</Thead>
-                                </tr>
+                                </TableRow>
                             
                                 {d.GuildInfo.slice(100,110).map((d)=>
-                                <tr>
+                                <TableRow>
                                     <Tdata key={d.Guild}> <Text>{d.Guild}</Text> </Tdata> 
                                     <Tdata key={d.Ammount}> <Text>{d.Ammount}</Text> </Tdata>
-                                </tr>)}
+                                </TableRow>)}
                             </Table>
                         }
                     </TableContainer>

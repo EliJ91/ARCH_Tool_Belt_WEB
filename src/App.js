@@ -5,6 +5,7 @@ import FrontPage from './components/frontPage/frontPage'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import LogIn from './components/login/login';
 import RecentZvz from './components/recentZvz/recentZvz'
+import Footer from './components/footer/footer'
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" exact component={FrontPage}/>
         </Switch>
       </Router>
+      <Footer/>
     </div>
   );
 }

@@ -14,6 +14,16 @@ const L = styled.li`
     list-decoration: none;
     color:white;
     font-family: 'Skranji', cursive;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+    
+&:hover{
+    color:black;
+    background-color: white;
+    border: 2px solid black;
     
 `
 
@@ -23,7 +33,7 @@ const Banner = styled.p`
     font-family: 'Skranji', cursive;
     font-size:5em;  
     text-align:center;
-    color:white;   
+    color:#DCDCDC;   
     text-shadow: 2px 10px 4px #000000 
 `
 
@@ -35,11 +45,7 @@ function NavBar() {
             
         <TopBar>
                 <Link to="/"><L>ZVZ Participation</L></Link>
-                {" "}
-                <L>|</L>
-                {" "}
-                {/* <Link to="/login"><L>Log In</L></Link>      
-                {" | "} */}
+                
                 <Link to="/recentzvz"><L>Recent ZvZ's</L></Link>       
             
         </TopBar>
