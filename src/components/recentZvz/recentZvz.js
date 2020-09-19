@@ -114,7 +114,7 @@ function RecentZvz() {
                 <CardContainer>
                     <DocTitleContainer><DocInfo>Created By: {d.Author}</DocInfo><DocInfoUTC>{d.Timestamp.substring(d.Timestamp.indexOf("_")+1)}</DocInfoUTC><DocInfo>Date Created: {d.Timestamp.split("_",[1])}</DocInfo></DocTitleContainer>
                     <TableContainer>
-                        {d.GuildInfo.length > 0 &&
+                        {d.GuildInfo.length >= 0 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -128,7 +128,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 9 &&
+                        {d.GuildInfo.length > 10 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -142,7 +142,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 19 &&
+                        {d.GuildInfo.length > 20 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -156,7 +156,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 29 &&
+                        {d.GuildInfo.length > 30 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -170,7 +170,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 39 &&
+                        {d.GuildInfo.length > 40 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -184,7 +184,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 49 &&
+                        {d.GuildInfo.length > 50 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -198,7 +198,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 59 &&
+                        {d.GuildInfo.length >= 60 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -212,7 +212,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 69 &&
+                        {d.GuildInfo.length >= 70 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -226,7 +226,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 79 &&
+                        {d.GuildInfo.length >= 80 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -240,7 +240,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 89 &&
+                        {d.GuildInfo.length >= 90 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>
@@ -254,7 +254,7 @@ function RecentZvz() {
                                 </tr>)}
                             </Table>
                         }
-                        {d.GuildInfo.length > 99 &&
+                        {d.GuildInfo.length >= 100 &&
                             <Table>
                                 <tr>
                                     <Thead>Guild</Thead>

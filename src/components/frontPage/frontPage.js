@@ -93,7 +93,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 9 &&
+            {guildData.length >= 10 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
@@ -108,7 +108,7 @@ color:white;
 
             </Table>}
             
-            {guildData.length > 19 &&
+            {guildData.length > 20 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
@@ -122,7 +122,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 29 &&
+            {guildData.length > 30 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -136,7 +136,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 39 &&
+            {guildData.length > 40 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -150,7 +150,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 49 &&
+            {guildData.length > 50 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -164,7 +164,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 59 &&
+            {guildData.length > 60 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -178,7 +178,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 69 &&
+            {guildData.length > 70 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -192,7 +192,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 79 &&
+            {guildData.length > 80 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -206,7 +206,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 89 &&
+            {guildData.length > 90 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -220,7 +220,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 99 &&
+            {guildData.length > 100 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -235,7 +235,7 @@ color:white;
 
             </Table>}
 {/* /////////////////////////////////////////////////////////////////////////////////////// */}
-            {guildData.length > 109 &&
+            {guildData.length > 110 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
@@ -249,7 +249,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 119 &&
+            {guildData.length > 120 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
@@ -264,7 +264,7 @@ color:white;
 
             </Table>}
             
-            {guildData.length > 129 &&
+            {guildData.length > 130 &&
             <Table>
                 <tr>
                     <Thead>Guild</Thead>
@@ -278,7 +278,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 139 &&
+            {guildData.length > 140 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -292,7 +292,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 149 &&
+            {guildData.length > 150 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -306,7 +306,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 159 &&
+            {guildData.length > 160 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -320,7 +320,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 169 &&
+            {guildData.length > 170 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -334,7 +334,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 179 &&
+            {guildData.length > 180 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -348,7 +348,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 189 &&
+            {guildData.length > 190 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -362,7 +362,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 199 &&
+            {guildData.length > 200 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
@@ -376,7 +376,7 @@ color:white;
                 </tr>)}
 
             </Table>}
-            {guildData.length > 209 &&
+            {guildData.length > 210 &&
             <Table >
                 <tr>
                     <Thead>Guild</Thead>
